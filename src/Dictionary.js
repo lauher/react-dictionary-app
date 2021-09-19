@@ -9,7 +9,7 @@ export default function Dictionary() {
     console.log(response.data[0]);
   }
 
-  // documentation: htpps://dictionaryapi.dev/ //
+  // documentation: https://dictionaryapi.dev/ //
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
