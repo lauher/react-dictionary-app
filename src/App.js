@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header"></header>
         <img src={logo} className="App-logo img-fluid" alt="logo SheCodes" />
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small> Coded by Laura Herbert </small>
