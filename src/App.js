@@ -12,7 +12,21 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small> Coded by Laura Herbert </small>
+          <small>
+            This project was coded by{" "}
+            <a href="/about.html" title="About - Laura Herbert">
+              Laura
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/lauher/react-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+              title="Github - Laura Herbert"
+            >
+              open-sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
